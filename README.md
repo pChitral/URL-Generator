@@ -6,4 +6,4 @@ So while I was preparing for the GRE, I followed a wordlist by GregMAT. Whenever
 ## What does it do?
 The code takes input from the CSV file <code>file_name</code> and then generates the URL, which finally gets exported in an excel file. I used to open all the links simultaneously, obviating the need to type it explicitly for 900 words in the list. 
 ## What if you want to generate a URL for some different website? 
-Simply open the <code>URL Generator.ipynb</code> file and change the variable <code>url</code> which is sitting in the for loop, with the URL of your choice.
+Simply open the <code>URL_Generator.ipynb</code> file and change the variable <code>url</code> which is sitting in the for loop, with the URL of your choice.
