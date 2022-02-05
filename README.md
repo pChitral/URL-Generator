@@ -5,3 +5,5 @@ So while I was preparing for the GRE, I followed a wordlist by GregMAT. Whenever
 
 ## What does it do?
 The code takes input from the CSV file "file_name" and then generates the URL, which finally gets exported in an excel file. I used to open all the links simultaneously, removing the need to type it explicitly for 900 words in the list. 
+## What if you want to generate a URL for some different website? 
+Simply open the "URL Generator.ipynb" file and change the variable  "url," which is sitting in the for loop, with the URL of your choice.
