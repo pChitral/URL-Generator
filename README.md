@@ -1,9 +1,12 @@
 # URL Generator
 
-## Why did I write it? 
-So while I was preparing for the GRE, I followed a wordlist by GregMAT. Whenever I came across a new word, I used to google how it is used in a sentence to comprehend it and not simply memorize its meaning. After repeating this for quite a while, I couldn't help but find a shortcut. Thus, I had written this to generate the URL that takes me to the example sentence for all 900 words from the GregMAT list.  
+## Introduction
+I created this simple python script to automate the process of generating URLs for a list of words that I was studying while preparing for the GRE using a wordlist by GregMAT. I found it helpful to look up example sentences for new words that I came across in order to better understand their usage.
 
-## What does it do?
-The code takes input from <code>file_name.csv</code> and then generates the URL, which finally gets exported in an excel file. I used to open all the links simultaneously, obviating the need to type it explicitly for 900 words in the list. 
-## What if you want to generate a URL for some different website? 
-Simply open the <code>URL_Generator.ipynb</code> file and change the variable <code>url</code> which is sitting in the for loop, with the URL of your choice.
+## How it Works
+The code reads input from a CSV file named `file_name.csv`, which contains a list of words. For each word, the script generates a URL that takes the user directly to an example sentence using the word in context. The generated URLs are then exported to an Excel file. By opening all the links simultaneously, it saves time and effort compared to typing the URLs explicitly for 900 words in the list.
+
+## Customization
+If you want to generate URLs for a different website, simply open the `URL_Generator.ipynb` file and change the variable `url` which is sitting in the for loop, with the URL of your choice.
+
+I hope this tool can help you study more efficiently. Feel free to suggest any improvements or contribute to the project. 
